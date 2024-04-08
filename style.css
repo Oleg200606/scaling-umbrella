@@ -1,0 +1,69 @@
+/* Общие стили */
+html body {
+    background-color: rgb(29, 29, 29);
+}
+header {
+    width: 100%;
+    background: #13100d;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 20px; 
+}
+
+.social-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.social-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.font {
+    background: url(Fonari.jpg) center center/cover no-repeat;
+    min-height: 80vh;
+}
+
+footer {
+    margin-top: 10vh;
+    text-align: center;
+    color: rgb(255, 243, 243);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media (min-width: 1024px) {
+   
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+
+}
